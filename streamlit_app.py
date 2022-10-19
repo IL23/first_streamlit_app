@@ -65,11 +65,6 @@ streamlit.stop()
 
 # import snowflake.connector
 
-
-
-
-my_data_rows = 
-
 streamlit.dataframe(my_data_rows)
 
 add_my_fruit = streamlit.text_input('What fruit would you like to addt?','jackfruit')
